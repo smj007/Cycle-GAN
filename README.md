@@ -1,5 +1,5 @@
 
-***Unpaired Image2Image Translation
+***Unpaired Image2Image Translation***
 
 # CycleGAN
 
