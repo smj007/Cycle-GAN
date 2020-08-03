@@ -1,33 +1,24 @@
-# Cycle-GAN
+
 Unpaired Image2Image Translation
 
+### CycleGAN model
 
-<br><br><br>
--->
-# CycleGAN
+CycleGAN model can be summarized in the following image. For full details about implementation and understanding CycleGAN you can read the tutorial at this [link](https://hardikbansal.github.io/CycleGANBlog/)
 
-Tensorflow implementation for learning an image-to-image translation **without** input-output pairs.
-The method is proposed by [Jun-Yan Zhu](https://people.eecs.berkeley.edu/~junyanz/) in 
-[Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networkssee](https://arxiv.org/pdf/1703.10593.pdf). 
-For example in paper:
 
-<img src="imgs/teaser.jpg" width="1000px"/>
+<p align="center">
+<img src="images/model.jpg" alt="Model" width="80%" />
+</p>
 
-<!--
-## Applications
-### Monet Paintings to Photos
-<img src="imgs/painting2photo.jpg" width="1000px"/>
+##### Generator
 
-### Collection Style Transfer
-<img src="imgs/photo2painting.jpg" width="1000px"/>
 
-### Object Transfiguration
-<img src="imgs/objects.jpg" width="1000px"/>
+<p align="center">
+<img src="images/Generator.jpg" alt="Generator" width="80%" />
+</p>
 
-### Season Transfer
-<img src="imgs/season.jpg" width="1000px"/>
+##### Discriminator
 
-### Photo Enhancement: iPhone photo to DSLR photo
-<img src="imgs/photo_enhancement.jpg" width="1000px"/>
-
--->
+<p align="center">
+<img src="images/discriminator.jpg" alt="Discriminator" width="80%" />
+</p>
